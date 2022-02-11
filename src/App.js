@@ -1,12 +1,6 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import {
-  generateUser,
-  editUser,
-  addUserToUsersList,
-  getUser,
-} from "./utils/users";
-import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import { generateUser, addUserToUsersList, getUser } from "./utils/users";
 import Home from "./pages/Home/Home";
 import Configuration from "./pages/Configuration/Configuration";
 import ChatsList from "./pages/ChatsList/ChatsList";
@@ -43,12 +37,12 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home userData={userData} />} />
-        <Route path="configuracion" element={<Configuration />} />
-        <Route path="chat/:id" element={<Chat />} />
-        <Route path="lista-chats" element={<ChatsList />} />
-        <Route path="lista-grupo" element={<GroupsList />} />
-        <Route path="lista-usuarios" element={<UsersList />} />
+        <Route path="chat-anonimo/" element={<Home userData={userData} />} />
+        <Route path="chat-anonimo/configuracion" element={<Configuration />} />
+        <Route path="chat-anonimo/chat/:id" element={<Chat />} />
+        <Route path="chat-anonimo/lista-chats" element={<ChatsList />} />
+        <Route path="chat-anonimo/lista-grupo" element={<GroupsList />} />
+        <Route path="chat-anonimo/lista-usuarios" element={<UsersList />} />
       </Routes>
     </>
   );

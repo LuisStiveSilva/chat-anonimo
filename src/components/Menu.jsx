@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
-import { grey, lightRed, red, white } from '../utils/colors'
+import { lightRed, red, white } from '../utils/colors'
 
 const MenuCard = styled(Link)`
     width: 200px;

@@ -8,7 +8,6 @@ import {
     BsTools
 } from "react-icons/bs";
 import Menu from '../../components/Menu';
-import styled from 'styled-components';
 import { Container } from '../../utils/custom-styles';
 
 const list = [
