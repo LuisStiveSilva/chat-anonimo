@@ -41,7 +41,7 @@ export default function UsersCardList({ data }) {
         } else {
             chat = generateChat("individual", null, [currentUser, userClicked])
         };
-        navigate(`/chat-anonimo/chat/${chat._id}`)
+        navigate(`/chat/${chat._id}`)
     }
 
     return (

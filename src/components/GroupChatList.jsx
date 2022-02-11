@@ -30,7 +30,7 @@ export default function GroupChatList({ icon, data }) {
         } else {
             addUserToChat(user, data._id)
         }
-        navigate(`/chat-anonimo/chat/${data._id}`)
+        navigate(`/chat/${data._id}`)
     }
 
     return (

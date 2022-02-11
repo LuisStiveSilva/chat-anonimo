@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/chat-anonimo">
     <App />
   </BrowserRouter>,
   document.getElementById("root")

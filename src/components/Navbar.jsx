@@ -24,7 +24,7 @@ export default function Navbar({ title = "Hola", backButton = true }) {
     return (
         <Nav center={!Boolean(backButton)}>
             {backButton &&
-                <Link to="/chat-anonimo">
+                <Link to="/">
                     <BackIcon />
                 </Link>
             }
