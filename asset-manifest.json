@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chat-anonimo/static/css/main.2ee149d3.css",
-    "main.js": "/chat-anonimo/static/js/main.cc2f1450.js",
+    "main.js": "/chat-anonimo/static/js/main.db709b44.js",
     "static/media/perro-2.jpg": "/chat-anonimo/static/media/perro-2.13b15b041a92c055250c.jpg",
     "static/media/perro-5.jpg": "/chat-anonimo/static/media/perro-5.0bc48089ab407ca76d75.jpg",
     "static/media/perro-1.jpg": "/chat-anonimo/static/media/perro-1.cc993d67ea40204e3786.jpg",
@@ -9,10 +9,10 @@
     "static/media/perro-4.jpg": "/chat-anonimo/static/media/perro-4.5b4c9f4f60bca3096d8e.jpg",
     "index.html": "/chat-anonimo/index.html",
     "main.2ee149d3.css.map": "/chat-anonimo/static/css/main.2ee149d3.css.map",
-    "main.cc2f1450.js.map": "/chat-anonimo/static/js/main.cc2f1450.js.map"
+    "main.db709b44.js.map": "/chat-anonimo/static/js/main.db709b44.js.map"
   },
   "entrypoints": [
     "static/css/main.2ee149d3.css",
-    "static/js/main.cc2f1450.js"
+    "static/js/main.db709b44.js"
   ]
 }
